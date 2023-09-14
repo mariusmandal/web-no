@@ -5,8 +5,9 @@
 
 @media (prefers-color-scheme: dark) {
      :root {
-        --main: rgba(255, 255, 255, .85);
-        --back: #000;
+        --main: #f2e3d5;
+        --back: #012E40;
+        --accent: #0cb0f1;
     }
 }
 
@@ -61,7 +62,7 @@ a:visited,
 a:focus,
 a:hover {
     font-weight: 500;
-    color: var(--main)
+    color: var(--accent)
 }
 
 @media screen and (min-width: 767.98px) {
