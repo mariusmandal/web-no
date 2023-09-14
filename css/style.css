@@ -1,13 +1,14 @@
 :root {
-    --main: rgba(0, 0, 0, .85);
+    --main: #00062a;
     --back: #efeff3;
+    --accent: #0371B5;
 }
 
 @media (prefers-color-scheme: dark) {
      :root {
         --main: #f2e3d5;
-        --back: #012E40;
-        --accent: #0cb0f1;
+        --back: #00062a;
+        --accent: #047DC8;;
     }
 }
 
@@ -62,7 +63,9 @@ a:visited,
 a:focus,
 a:hover {
     font-weight: 500;
-    color: var(--accent)
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
 }
 
 @media screen and (min-width: 767.98px) {
