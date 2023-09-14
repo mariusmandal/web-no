@@ -91,7 +91,7 @@ a:hover {
 }
 
 #mariusmandal-no #center-container {
-    height: 95vh;
+    height: 90vh;
     flex-direction: column;
 }
 
@@ -192,8 +192,8 @@ span.type {
 }
 
 p#business {
-    margin-bottom: 6em;
-    margin-top: calc(6em - 4rem);
+    margin-bottom: 5em;
+    margin-top: calc(5em - 4rem);
 }
 p#socials-intro {
     margin-bottom: -.2em;
