@@ -148,6 +148,8 @@ a:hover {
     font-display: swap;
     font-weight: 300;
     font-style: normal;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 @media screen and (max-width: 767.98px) {
