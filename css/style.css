@@ -115,7 +115,15 @@ a:hover {
     min-height: 30vh;
     height: unset;
 }
-
+@media screen and (max-width: 767.98px) {
+    #mariusmandal-no-page #center-container {
+        padding-top: 5vh;
+        padding-bottom: 7vh;
+    }
+    #mariusmandal-no-page #center-container #slogan {
+        margin-top: 3vh;
+    }
+}
 #mariusmandal-no #center-container {
     height: 90vh;
     flex-direction: column;
