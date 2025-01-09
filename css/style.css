@@ -190,6 +190,12 @@ a:hover {
     flex-direction: column;
 }
 
+#center-container > article {
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
 @media screen and (min-width: 1198.98px) {
     #two-part {
         flex-direction: row;
@@ -241,3 +247,4 @@ p#email {
 .indent {
     margin-left: 2em;
 }
+
